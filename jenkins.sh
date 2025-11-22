@@ -1,6 +1,3 @@
-sudo -i
-hostnamectl set-hostname "JENKINS"
-sudo -i
 yum install git -y
 git init
 yum install java-17-amazon-corretto -y
