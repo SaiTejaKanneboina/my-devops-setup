@@ -9,3 +9,4 @@ yum install jenkins -y
 systemctl status jenkins
 systemctl start jenkins
 systemctl status jenkins
+cat /var/lib/jenkins/secrets/initialAdminPassword
