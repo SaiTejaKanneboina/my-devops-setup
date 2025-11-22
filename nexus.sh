@@ -7,3 +7,4 @@ chown -R devops:devops nexus-3.86.2-01 sonatype-work/
 cd /opt/nexus-3.86.2-01/bin/
 ./nexus start
 ./nexus status
+cat /opt/sonatype-work/nexus3/admin.password
